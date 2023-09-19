@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #141229;
+  height: 100vh;
+  
+}
+
+nav {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #222038; 
+  padding: 1rem 3rem; 
+}
+
+.halo {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.logo {
+  flex: 1; 
+}
+
+ul {
+  display: flex; 
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 4rem; 
+}
+
+a {
+  font-size: 2rem;
+  font-family: 'Toko', sans-serif;
+  text-decoration: none; 
+  color: antiquewhite; 
+  font-weight: bold;
+}
+
+a:hover {
+  color: #26cf3c; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container p {
+  font-family: 'Toko', sans-serif;
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(49, 49, 49, 0.7);
+  padding: 1rem;
+  border: 1px solid #26cf3c;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.allGames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem; 
+}
+.image-container {
+  flex-basis: calc(33.33% - 1rem); 
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+h1 {
+  font-family: 'Toko', sans-serif;
+  font-size: 24px;
+  color: #26cf3c;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(30, 255, 0, 0.2);
+}
+
+h2 {
+  font-family: 'Toko', sans-serif;
+  font-size: 20px;
+  color: #26cf3c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  letter-spacing: 2px;
+  border-radius: 1rem;
+  border: 2px solid #26cf3c; 
+}
+
+.container {
+  margin-top: 15rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.parallelogram {
+  width: 20rem;
+  height: 10rem;
+  background-color: #26cf3c;
+  transform: skew(-20deg);
+  text-align: center;
+  justify-content: center;
+  padding: 3.1rem;
+  font-family: 'Toko', sans-serif;
+  font-size: 2rem;
+}
+
+.centered-text {
+  transform: skew(20deg);
+  color: antiquewhite;
+  margin: 0;
+}
+
+.bloco1 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  margin-top: 10rem;
+  box-shadow: 0 2px 4px rgba(30, 255, 0, 0.2);
+}
+
+.bloco1 p {
+  font-family: 'Toko', sans-serif;
+  font-size: 2rem;
+  color: antiquewhite;
+  padding: 5rem;
+  max-width: 50rem;
+}
+
+.bloco2 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  box-shadow: 0 2px 4px rgba(30, 255, 0, 0.2);
+}
+
+.bloco2 p {
+  font-family: 'Toko', sans-serif;
+  font-size: 2rem;
+  color: antiquewhite;
+  padding: 5rem;
+  max-width: 50rem;
+}
+
+
+.link1 {
+  position: relative;
+  padding: 3rem;
+  margin-top: 30rem;
+  cursor: pointer;
+}
+
+.link1 p {
+  padding: 1rem;
+  background-color: transparent;
+  color: #26cf3c; 
+  transform: skew(-20deg);
+  border: 2px solid #26cf3c; 
+}
+
+
+.link2 {
+  position: relative;
+  padding: 3rem;
+  margin-top: 40rem;
+  cursor: pointer;
+}
+
+.link2 p {
+  padding: 1rem;
+  background-color: transparent;
+  color: #26cf3c; 
+  transform: skew(-20deg); 
+  border: 2px solid #26cf3c; 
+}
+
+footer {
+  background-color: #222038;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 5rem; 
+}
+
+.social-media p {
+  font-family: 'Toko', sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: #26cf3c; 
+  transform: skew(-20deg); 
+  border: 2px solid #26cf3c; 
+}
+
+.social-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.download-options p {
+  font-family: 'Toko', sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: #26cf3c; 
+  transform: skew(-20deg); 
+  border: 2px solid #26cf3c; 
+}
+
+.download-options {
+  display: flex;
+  gap: 5rem; 
+}
+
+.download-link img {
+  width: 3rem; 
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+      flex-direction: column; 
+      text-align: center;
+      padding: 1rem;
+  }
+
+  .social-media,
+  .download-options,
+  .image-container,
+  .bloco1,
+  .bloco2,
+  .link1,
+  .link2 {
+      margin-top: 2rem; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+      padding: 1rem;
+  }
+
+  ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li {
+      margin-right: 0;
+      margin-bottom: 1rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: .8rem; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #26cf3c; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222038; 
+}
+
+
+::-webkit-scrollbar-horizontal {
+  height: .8rem;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #26cf3c;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background-color: #222038;
+}
